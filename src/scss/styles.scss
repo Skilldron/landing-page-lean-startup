@@ -1,0 +1,12 @@
+@import "./Header/link_underline.scss";
+@import "./components/gradiant-primary.scss";
+@import "./components/buttons.scss";
+@import "./content/styles.scss";
+@import "./global.scss";
+
+$theme-colors: (
+    "primary": $primary
+    );
+    
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
