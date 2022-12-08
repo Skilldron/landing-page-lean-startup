@@ -1,12 +1,18 @@
 @import "./Header/link_underline.scss";
 @import "./components/gradiant-primary.scss";
 @import "./components/buttons.scss";
-@import "./content/styles.scss";
+@import "./accueil/styles.scss";
 @import "./global.scss";
+@import "./components/banner.scss";
 
 $theme-colors: (
-    "primary": $primary
+    "primary": $primary,
+    "secondary": $secondary
     );
-    
+
+.w-45{
+    width: 45%;
+}
+
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
